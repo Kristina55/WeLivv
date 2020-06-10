@@ -1,5 +1,4 @@
-/** Start server . */
-
+/** Start server */
 
 const app = require('./app');
 const { PORT } = require("./config");
