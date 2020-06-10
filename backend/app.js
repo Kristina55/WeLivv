@@ -8,8 +8,8 @@ app.use(cors());
 
 
 
-// const businessRoutes = require("./routes/business");
-// app.use("/business", businessRoutes);
+const businessRoutes = require("./routes/business");
+app.use("/business", businessRoutes);
 
 
 /** 404 handler */
