@@ -2,8 +2,8 @@
 
 ### `How to start the app`
 
-cd backend - npm install (install dependencies) - psql mydb < data.sql (seed the data) - node server (run the server)
-cd frontend - npm install (install dependencies) - npm start (run the app)
+1. cd backend - npm install (install dependencies) - psql mydb < data.sql (seed the data) - node server (run the server)
+2. cd frontend - npm install (install dependencies) - npm start (run the app)
 
 ### `Technology Stack`
 
