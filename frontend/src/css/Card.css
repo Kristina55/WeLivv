@@ -1,0 +1,163 @@
+/* Card Component */
+
+.card-body {
+  border-radius: 6px;
+  border-bottom: 5px solid black;
+  background-color: white;
+  padding: 38px;
+  max-height: 250px;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  cursor: w-resize;
+}
+a:link {
+  text-decoration: none;
+}
+.card-body:hover {
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card-body > p {
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 7px;
+  color: gray;
+}
+
+.card-body > h2 {
+  color: #384158;
+  letter-spacing: 3px;
+}
+
+.one-business {
+  border-bottom: 10px solid black;
+  height: 400px;
+  padding: 38px;
+  margin-bottom: 1rem;
+  color: inherit;
+  border-radius: 0;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.12), 0 2px 7px rgba(0, 0, 0, 0.24);
+  cursor: n-resize;
+}
+
+.one-business > h2 {
+  color: black;
+  margin-bottom: 23px;
+}
+
+.one-business > p {
+  color: black;
+  margin-bottom: 23px;
+}
+.one-business > h6 {
+  color: black;
+}
+.card-name,
+.card-address,
+.card-city,
+.card-state,
+.card-country {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.card-name {
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+.contact-number {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 7px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+.card-phone {
+  display: inline-block;
+  margin-left: 10px;
+}
+.card-phone,
+.card-website {
+  font-size: 17px;
+  margin-bottom: 15px;
+  cursor: n-resize;
+}
+
+/* Business Component */
+
+.business-component {
+  margin-top: 50px;
+}
+.go-back {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.go-back > a {
+  font-size: 16px;
+}
+/* EditCard Component */
+
+.edit-row {
+  margin-top: 40px;
+}
+.edit-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.update-button {
+  float: right;
+  margin-top: 20px;
+  cursor: n-resize;
+  font-size: 15px;
+  margin-right: 13px;
+}
+.btn-outline-primary {
+  cursor: n-resize;
+}
+.btn-outline-primary:hover {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16), 0 2px 3px rgba(0, 0, 0, 0.23);
+}
+label {
+  float: left;
+}
+
+.edit-button {
+  margin-top: 45px;
+}
+
+.edit-button > a > button {
+  font-size: 15px;
+  color: black;
+}
+
+.update-info {
+  text-align: center;
+  color: black;
+}
+.borders {
+  height: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+}
+
+.borders-bottom {
+  margin-top: 40px;
+  height: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+}
+
+/* Alert Component*/
+
+.font-italic {
+  font-style: italic;
+}

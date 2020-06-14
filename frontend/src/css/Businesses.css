@@ -1,0 +1,27 @@
+.businesses-page {
+  background-color: #f8f8f8;
+}
+
+.businesses-row {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Search {
+  margin-bottom: 20px;
+}
+
+.businesses {
+  text-align: center;
+}
+.businesses > div {
+  margin-top: 0px;
+}
+.business-borders {
+  height: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 55px;
+}

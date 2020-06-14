@@ -1,0 +1,26 @@
+.home-container {
+  text-align: center;
+  background-image: url(../images/4.jpg);
+  background-size: cover;
+  margin: 0px;
+  height: calc(100vh - 1px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-style {
+  font-family: Helvetica;
+  font-size: 36px;
+  color: #fffffff0;
+  padding: 126px;
+  background-color: #0000008f;
+  letter-spacing: 6px;
+}
+
+.home-style > div,
+.home-style > span {
+  display: inline-block;
+  margin-right: 30px;
+}

@@ -1,3 +1,7 @@
+-- PostgreSQL database
+
+-- create db table
+
 CREATE TABLE business (
     id integer NOT NULL,
     uuid text,
